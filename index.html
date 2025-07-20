@@ -596,4 +596,107 @@
             </div>
 
             <section class="how-it-works">
-       
+                <h3>📲 Como funciona:</h3>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-text">Você faz sua assinatura mensal por apenas R$2,50 (valor anual R$29,99 válido por 12 meses)</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-text">Faz envio do comprovante de pagamento</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-text">Em seguida envia seu @ do Instagram (para você ter acesso é necessário me seguir e ser usuário do Instagram)</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-text">A equipe de suporte vai te adicionar e você já começa a ter acesso ao meu Close Friends exclusivo 💚</div>
+                    </div>
+                </div>
+            </section>
+            <section class="whats-inside">
+                <h3>💚 O que você recebe:</h3>
+                <ul class="inside-list">
+                    <li>Dicas práticas de organização de festas;</li>
+                    <li>Tendências em festas, decoração, música e iluminação;</li>
+                    <li>Bastidores de festas reais (o que funcionou e o que deu errado);</li>
+                    <li>Fornecedores que eu realmente indico;</li>
+                    <li>Checklists para noivas e debutantes;</li>
+                    <li>Desconto na contratação do DJ Mário Souza;</li>
+                    <li>Cupons de descontos de fornecedores cadastrados no Close Friends.</li>
+                </ul>
+            </section>
+            <section class="biography">
+                <h2>🎤 Sobre o DJ Mário Souza</h2>
+                <p>Olá! Sou o DJ Mário Souza, e há mais de 10 anos trabalho fazendo festas incríveis de casamento, 15 anos e eventos infantis. Minha paixão é transformar sonhos em realidade através da música e do entretenimento.</p>
+                <p>Durante todos esses anos, acumulei uma experiência única no mundo dos eventos, conhecendo os melhores fornecedores, as tendências que realmente funcionam e todos os segredos para uma festa perfeita. Agora, quero compartilhar esse conhecimento com você!</p>
+                <p>Além do acesso ao meu e-book, no Close Friends VIP você acompanha de perto os bastidores das festas mais aguardadas, recebe dicas práticas do dia a dia, conteúdos e dicas reais de quem vive tudo isso. Faça parte dessa comunidade exclusiva!</p>
+            </section>
+            <section class="contact-section">
+                <h3>💬 Dúvidas?</h3>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>📱 Instagram</h4>
+                        <p>@djmariosouza</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>📧 E-mail</h4>
+                        <p>closefriendsdjmariosouza@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>📞 Suporte</h4>
+                        <p>84 99999.8888<br>Cristóvão</p>
+                    </div>
+                </div>
+            </section>
+            <div style="text-align: center;">
+                <button class="cta-button" onclick="window.open('https://wa.me/5584998939374?text=Oi%2C%20M%C3%A1rio!%20Quero%20assinar%20o%20Close%20Friends%20VIP%20%2B%20E-book%20por%20R%242%2C50%2Fm%C3%AAs', '_blank')">
+                    🔐 Entrar no Close Friends e Ter Acesso Exclusivo
+                </button>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2025 DJ Mário Souza. Todos os direitos reservados.</p>
+            <p>🎵 Tornando cada evento único e inesquecível há mais de 10 anos</p>
+            <p> 🎧 - 🎚️ - 🎙️ - 🔊  - 🎛️  - 🎉 - 🕺 - 🎂 </p>
+            <p> Me acompanhe nas redes: </p>
+            
+
+            <!-- Redes Sociais -->
+            <div class="social-icons">
+                <a href=" https://instagram.com/djmariosouza " target="_blank" title="Instagram">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png " alt="Instagram" width="30" height="30" />
+                </a>
+                <a href="https://youtube.com/@djmariosouza" target="_blank" title="YouTube">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/youtube-play.png " alt="YouTube" width="30" height="30" />
+                </a>
+                <a href="https://wa.me/5584998939374?text=Oi%2C%20M%C3%A1rio!%20Conheci%20seu%20trabalho%20por%20meio%20da%20sua%20p%C3%A1gina%20do%20Close%20Friends.%20Minha%20d%C3%BAvida%20%C3%A9%20a%20seguinte%3A" target="_blank" title="WhatsApp">
+                    <img src=" https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png " alt="WhatsApp" width="30" height="30" />
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Add beat effect to CTA buttons
+        setInterval(() => {
+            const buttons = document.querySelectorAll('.cta-button');
+            buttons.forEach(button => {
+                button.style.transform = 'scale(1.02)';
+                setTimeout(() => {
+                    button.style.transform = 'scale(1)';
+                }, 100);
+            });
+        }, 3000);
+        // Music visualization effect
+        const musicElements = document.querySelectorAll('.music-element');
+        setInterval(() => {
+            musicElements.forEach(element => {
+                const randomScale = 0.8 + Math.random() * 0.4;
+                element.style.transform = `scale(${randomScale})`;
+            });
+        }, 800);
+    </script>
+</body>
+</html>
